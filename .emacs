@@ -1,8 +1,9 @@
 (require 'color-theme)
+(if window-system
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-gnome2)))
+     (color-theme-gnome2))))
 
 
 
