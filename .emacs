@@ -31,6 +31,8 @@
 ;; Highlight parenthesis mode
 (show-paren-mode)
 
+;; In every buffer, the line which contains the cursor will be fully highlighted
+(global-hl-line-mode 1)
 
 ;; Send primary selection to clipboard so copy-paste works with other X-applications
 (global-set-key "\C-w" 'clipboard-kill-region)
