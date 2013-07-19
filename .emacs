@@ -57,3 +57,6 @@
 (custom-set-variables
   '(auto-save-file-name-transforms '((".*" "~/.emacs.d/autosaves/\\1" t)))
   '(backup-directory-alist '((".*" . "~/.emacs.d/backups/"))))
+
+;; Overwrite selected text
+(delete-selection-mode t)
