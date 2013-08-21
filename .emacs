@@ -5,9 +5,6 @@
      (color-theme-initialize)
      (color-theme-gnome2))))
 
-
-
-
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
@@ -39,8 +36,7 @@
 (global-set-key "\M-w" 'clipboard-kill-ring-save)
 (global-set-key "\C-y" 'clipboard-yank)
 
-
-
+;; Global key mapping
 (global-set-key [f1] 'compile)
 (global-set-key [f2] 'kill-compilation)
 (global-set-key [f3] 'next-error)
