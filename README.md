@@ -1,6 +1,8 @@
 config_files
 ============
 
+DEPRECATED: Use `dotfiles` instead.
+
 My configuration files
 
 # tmux
